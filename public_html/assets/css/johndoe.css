@@ -2716,7 +2716,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: #000000;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -2761,7 +2761,7 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #F85C70;
+  background-color: #000000;
   border-color: #F85C70;
 }
 
@@ -7200,7 +7200,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: black !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -9605,6 +9605,7 @@ button.bg-dark:focus {
   .mx-sm-auto {
     margin-left: auto !important;
   }
+   
 }
 
 @media (min-width: 768px) {
@@ -11365,9 +11366,9 @@ pre .code {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
+  -webkit-justify-content: space-evenly;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-evenly;
   max-width: 180px;
 }
 
@@ -11494,8 +11495,8 @@ pre .code {
   position: relative;
   height: 80vh;
   min-height: 600px;
-  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../imgs/kevin3.jpg);
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../imgs/kevin3.jpg);
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../imgs/kevin3.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../imgs/kevin3.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11669,4 +11670,27 @@ pre .code {
   background: #F85C70;
   display: block;
   margin-top: 10px;
+}
+
+
+
+@media (max-width: 768px){
+.header {
+  position: relative;
+  height: 80vh;
+  min-height: 600px;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../imgs/kevin3Mobile.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(../imgs/kevin3Mobile.jpg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+}
+}
+
+
+p{
+  color: black !important;
+  opacity: 1 !important;
 }
