@@ -10955,7 +10955,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 /* typography */
 p {
-  font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1300 - 300)));
+  font-size: calc(13px + (14 - 11) * ((100vw - 300px) / (1300 - 300)));
   opacity: .8;
   color: #444;
 }
@@ -11693,4 +11693,17 @@ pre .code {
 p{
   color: black !important;
   opacity: 1 !important;
+}
+
+.img-holder{
+  max-height:250px !important
+}
+
+.text-sh-km{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+
+}
+
+.btn-km{
+  padding: 13px 35px !important;
 }
